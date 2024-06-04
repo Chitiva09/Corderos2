@@ -21,7 +21,7 @@ public class InterfazVisual extends javax.swing.JFrame{
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jFrame1 = new javax.swing.JFrame();
+        jFrameDatos = new javax.swing.JFrame();
         textFieldEdad1 = new javax.swing.JTextField();
         textFieldSexo1 = new javax.swing.JTextField();
         textFieldNumSer1 = new javax.swing.JTextField();
@@ -37,6 +37,7 @@ public class InterfazVisual extends javax.swing.JFrame{
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         textFieldNumCor1 = new javax.swing.JTextField();
+        jFrameResuL = new javax.swing.JFrame();
         textFieldEdad = new javax.swing.JTextField();
         textFieldSexo = new javax.swing.JTextField();
         textFieldNumSer = new javax.swing.JTextField();
@@ -53,8 +54,8 @@ public class InterfazVisual extends javax.swing.JFrame{
         jLabel2 = new javax.swing.JLabel();
         textFieldNumCor = new javax.swing.JTextField();
 
-        jFrame1.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        jFrame1.setBackground(new java.awt.Color(51, 204, 255));
+        jFrameDatos.setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jFrameDatos.setBackground(new java.awt.Color(51, 204, 255));
 
         textFieldEdad1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -99,80 +100,92 @@ public class InterfazVisual extends javax.swing.JFrame{
 
         jLabel4.setText("Kg");
 
-        javax.swing.GroupLayout jFrame1Layout = new javax.swing.GroupLayout(jFrame1.getContentPane());
-        jFrame1.getContentPane().setLayout(jFrame1Layout);
-        jFrame1Layout.setHorizontalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jFrame1Layout.createSequentialGroup()
+        javax.swing.GroupLayout jFrameDatosLayout = new javax.swing.GroupLayout(jFrameDatos.getContentPane());
+        jFrameDatos.getContentPane().setLayout(jFrameDatosLayout);
+        jFrameDatosLayout.setHorizontalGroup(
+            jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jFrameDatosLayout.createSequentialGroup()
                 .addGap(120, 120, 120)
                 .addComponent(labelNumCor1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(textFieldNumCor1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(150, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrame1Layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrameDatosLayout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrame1Layout.createSequentialGroup()
-                        .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrameDatosLayout.createSequentialGroup()
+                        .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(labelSerie1, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(labelEdad1)
                             .addComponent(labelSexo1)
                             .addComponent(labePeso1))
                         .addGap(61, 61, 61)
-                        .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                             .addComponent(textFieldNumSer1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 72, Short.MAX_VALUE)
                             .addComponent(textFieldEdad1, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(textFieldSexo1, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(textFieldPeso1))
-                        .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jFrame1Layout.createSequentialGroup()
+                        .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jFrameDatosLayout.createSequentialGroup()
                                 .addGap(22, 22, 22)
                                 .addComponent(jLabel7))
-                            .addGroup(jFrame1Layout.createSequentialGroup()
+                            .addGroup(jFrameDatosLayout.createSequentialGroup()
                                 .addGap(11, 11, 11)
-                                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel4)
                                     .addComponent(jLabel3)
                                     .addComponent(buttonFin1, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addContainerGap())
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrame1Layout.createSequentialGroup()
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jFrameDatosLayout.createSequentialGroup()
                         .addComponent(buttonSig1)
                         .addGap(171, 171, 171))))
         );
-        jFrame1Layout.setVerticalGroup(
-            jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jFrame1Layout.createSequentialGroup()
+        jFrameDatosLayout.setVerticalGroup(
+            jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jFrameDatosLayout.createSequentialGroup()
                 .addGap(9, 9, 9)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(labelNumCor1)
                     .addComponent(textFieldNumCor1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(textFieldNumSer1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(labelSerie1))
                 .addGap(30, 30, 30)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(textFieldEdad1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(labelEdad1)
                     .addComponent(jLabel7))
                 .addGap(30, 30, 30)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(textFieldSexo1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(labelSexo1)
                     .addComponent(jLabel3))
                 .addGap(30, 30, 30)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(textFieldPeso1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(labePeso1)
                     .addComponent(jLabel4))
                 .addGap(27, 27, 27)
-                .addGroup(jFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(jFrameDatosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(buttonSig1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(buttonFin1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18))
         );
 
+        javax.swing.GroupLayout jFrameResuLLayout = new javax.swing.GroupLayout(jFrameResuL.getContentPane());
+        jFrameResuL.getContentPane().setLayout(jFrameResuLLayout);
+        jFrameResuLLayout.setHorizontalGroup(
+            jFrameResuLLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        jFrameResuLLayout.setVerticalGroup(
+            jFrameResuLLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("ventanaDatos");
         setBackground(new java.awt.Color(51, 204, 255));
 
         textFieldEdad.addActionListener(new java.awt.event.ActionListener() {
@@ -390,7 +403,8 @@ public class InterfazVisual extends javax.swing.JFrame{
     private javax.swing.JButton buttonFin1;
     private javax.swing.JButton buttonSig;
     private javax.swing.JButton buttonSig1;
-    private javax.swing.JFrame jFrame1;
+    private javax.swing.JFrame jFrameDatos;
+    private javax.swing.JFrame jFrameResuL;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
